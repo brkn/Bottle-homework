@@ -24,8 +24,8 @@ def htmlify(title,text):
     return page
 
 def index():
-    return htmlify("My lovely website",
-                   "This is going to be an awesome website, when it is finished.")
+    return htmlify("Testing if heroku connected correctly",
+                   "This is not going to be an awesome website, not even close.")
 
 route('/', 'GET', index)
 
